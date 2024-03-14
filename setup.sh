@@ -31,15 +31,15 @@ echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
 cd
 #
 # Add Domain
-wget https://raw.githubusercontent.com/titis69/v2ray/main/updated/adddomain.sh && chmod +x adddomain.sh && ./adddomain.sh
+wget https://raw.githubusercontent.com/titis69/install-v2ray/main/updated/adddomain.sh && chmod +x adddomain.sh && ./adddomain.sh
 #
 #install tools/alat
-wget https://raw.githubusercontent.com/titis69/v2ray/main/install-tools.sh && chmod +x install-tools.sh && ./install-tools.sh
+wget https://raw.githubusercontent.com/titis69/install-v2ray/main/install-tools.sh && chmod +x install-tools.sh && ./install-tools.sh
 #
 #Instal Xray
-wget https://raw.githubusercontent.com/titis69/v2ray/main/install-xray.sh && chmod +x install-xray.sh && ./install-xray.sh
+wget https://raw.githubusercontent.com/titis69/install-v2ray/main/install-xray.sh && chmod +x install-xray.sh && ./install-xray.sh
 #install xmenu
-wget https://raw.githubusercontent.com/titis69/v2ray/main/menu/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
+wget https://raw.githubusercontent.com/titis69/install-v2ray/main/menu/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
 #
 #SELESAI
 # collor status
