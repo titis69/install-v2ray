@@ -74,7 +74,7 @@ cat>/etc/xray/vmess-$user-nontls.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/xrayvws",
+      "path": "/berlianws",
       "type": "none",
       "host": "",
       "tls": "none"
