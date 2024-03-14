@@ -53,7 +53,7 @@ sed -i '/#trojangrpc$/a\#&# '"$user $exp"'\
 systemctl restart xray.service
 #buattrojan
 trojanlinkgrpc="trojan://${uuid}@${domain}:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bug.com#${user}"
-trojanlinkws="trojan://${uuid}@${domain}:443?path=/xraytrojanws&security=tls&host=bug.com&type=ws&sni=bug.com#${user}"
+trojanlinkws="trojan://${uuid}@${domain}:443?path=/trojanbrlws&security=tls&host=bug.com&type=ws&sni=bug.com#${user}"
 service cron restart
 clear
 echo -e ""
